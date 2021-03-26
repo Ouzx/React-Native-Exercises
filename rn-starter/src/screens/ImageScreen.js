@@ -6,9 +6,23 @@ const ImageScreen = () => {
     return (
         <View>
             <Text> Image Screen </Text>
-            <ImageDetail title='Forest' imgSrc={ require('../../assets/forest.jpg') }/>
-            <ImageDetail title='Beach' imgSrc={ require('../../assets/beach.jpg') }/>
-            <ImageDetail title='Mountain' imgSrc={ require('../../assets/mountain.jpg') }/>
+            <ImageDetail
+                title='Forest'
+                imgSrc={require('../../assets/forest.jpg')}
+                score={12}
+            />
+
+            <ImageDetail
+                title='Beach'
+                imgSrc={require('../../assets/beach.jpg')}
+                score={22}
+            />
+
+            <ImageDetail
+                title='Mountain'
+                imgSrc={require('../../assets/mountain.jpg')}
+                score={33}
+            />
         </View>
     );
 };
