@@ -1,0 +1,13 @@
+rn-starter/node_modules/**/*
+rn-starter/.expo/*
+rn-starter/npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+rn-starter/web-build/
+
+# macOS
+.DS_Store
