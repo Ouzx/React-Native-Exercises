@@ -20,6 +20,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('ImageScreens')}
         title='Image Screen'
       />
+      <Button
+        onPress={() => navigation.navigate('Counter')}
+        title='Counter'
+      />
     {/* <TouchableOpacity onPress={()=> console.log('Lists pressed.')}>
       <Text>List Screen #1</Text>
       <Text>List Screen #1</Text>
