@@ -6,6 +6,7 @@ const SquareScreen = () => {
     const [green, setGreen] = useState(0);
     const [blue, setBlue] = useState(0);
 
+    const COLOR_INCREMENT = 20;
     return (
         <View>
             <Text>
@@ -13,19 +14,20 @@ const SquareScreen = () => {
             </Text>
             <ColorAdjuster
                 color='Red'
-                onIncrease={ () => setRed(red + 1)}
-                onDecrease={ () => setRed(red - 1)}
+                onIncrease={ () => setRed(red + COLOR_INCREMENT)}
+                onDecrease={ () => setRed(red - COLOR_INCREMENT)}
             />
             <ColorAdjuster
                 color='Green'
-                onIncrease={ () => setGreen(green + 1)}
-                onDecrease={ () => setGreen(green - 1)}
+                onIncrease={ () => setGreen(green + COLOR_INCREMENT)}
+                onDecrease={ () => setGreen(green - COLOR_INCREMENT)}
             />
             <ColorAdjuster
                 color='Blue'
-                onIncrease={ () => setBlue(blue + 1)}
-                onDecrease={ () => setBlue(blue - 1)}
+                onIncrease={ () => setBlue(blue + COLOR_INCREMENT)}
+                onDecrease={ () => setBlue(blue - COLOR_INCREMENT)}
             />
+            <View style={{width: 50, height: 50, backgroundColor: `rgb(${red}, ${green}, ${blue} )`} } />
         </View>
     );
 };
