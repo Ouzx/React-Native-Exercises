@@ -1,9 +1,11 @@
 rn-starter/node_modules/**/*
 rn-starter/.expo/*
 rn-starter/npm-debug.*
-food/node_modules/**/*
-food/.expo/*
-food/npm-debug.*
+
+food-boilerplate/node_modules/**/*
+food-boilerplate/.expo/*
+food-boilerplate/npm-debug.*
+
 *.jks
 *.p8
 *.p12
