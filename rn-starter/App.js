@@ -1,13 +1,14 @@
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
-import HomeScreen from "./src/screens/HomeScreen";
-import ComponentScreen from "./src/screens/ComponentScreen";
-import ListScreen from "./src/screens/ListScreen";
-import ImageScreen from "./src/screens/ImageScreen";
-import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
+import ComponentScreen from "./src/screens/ComponentScreen";
+import CounterScreen from "./src/screens/CounterScreen";
+import HomeScreen from "./src/screens/HomeScreen";
+import ImageScreen from "./src/screens/ImageScreen";
+import ListScreen from "./src/screens/ListScreen";
+import PasswordScreen from "./src/screens/PasswordScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 import TextScreen from "./src/screens/TextScreen";
+import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
 
 const navigator = createStackNavigator(
   {
@@ -18,7 +19,8 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Colors: ColorScreen,
     Square: SquareScreen,
-    Texts: TextScreen  
+    Texts: TextScreen,
+    Password: PasswordScreen
   },
   {
     initialRouteName: "Home",
