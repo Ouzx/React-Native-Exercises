@@ -1,5 +1,6 @@
+import { StyleSheet, Text, TextInput, View } from 'react-native';
+
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
 
 const TextScreen = () => {
     return (
@@ -7,10 +8,23 @@ const TextScreen = () => {
             <Text>
                 Text Screen
             </Text>
+            <TextInput
+                style={styles.input}
+                autoCapitalize='none'
+                autoCorrect={false}
+            />
         </View>
     );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    input: {
+        margin: 15,
+        borderWidth: 1,
+        borderColor: '#000125',
+        borderRadius: 10,
+        height: 40
+    }
+});
 
 export default TextScreen;
