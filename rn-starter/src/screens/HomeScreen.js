@@ -1,5 +1,6 @@
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+
 import React from "react";
-import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen = ({ navigation }) => {
   return(
@@ -31,6 +32,10 @@ const HomeScreen = ({ navigation }) => {
       <Button
         onPress={() => navigation.navigate('Square')}
         title='Square Screen'
+      />
+      <Button
+        onPress={() => navigation.navigate('Texts')}
+        title='Text Screen'
       />
     {/* <TouchableOpacity onPress={()=> console.log('Lists pressed.')}>
       <Text>List Screen #1</Text>
