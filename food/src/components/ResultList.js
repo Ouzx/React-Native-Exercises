@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native
 import ResultDetail from '../components/ResultsDetail';
 
 const ResultList = ({ title, results, navigation }) => {
+    if (!results.length) return null;
     return (
         <View style={ styles.container }>
             <Text style={styles.title}>
