@@ -6,6 +6,10 @@ food/node_modules/**/*
 food/.expo/*
 food/npm-debug.*
 
+blog/node_modules/**/*
+blog/.expo/*
+blog/npm-debug.*
+
 *.jks
 *.p8
 *.p12
