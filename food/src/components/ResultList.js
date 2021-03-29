@@ -13,7 +13,7 @@ const ResultList = ({ title, results }) => {
                 data={results}
                 keyExtractor={result => result.id}
                 renderItem={({ item }) => {
-                    return <ResultDetail item={ item }/>
+                    return <ResultDetail result={ item }/>
                 }}
             />
         </View>

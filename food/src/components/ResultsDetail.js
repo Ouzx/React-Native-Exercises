@@ -1,16 +1,26 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
-const ResultDetail = ({ item }) => {
+const ResultDetail = ({ result }) => {
     return (
         <View>
-            <Text>
-                {item.name}
+            <Image style={ styles.image } source={ {uri: result.image_url} }/>
+            <Text style={ styles.name }>
+                {result.name}
             </Text>
         </View>
     );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    image: {
+        width: 250,
+        height: 150,
+        borderRadius: 4,
+    },
+    name: {
+        fontWeight: 'bold',
+    },
+});
 
 export default ResultDetail;
