@@ -10,6 +10,8 @@ blog/node_modules/**/*
 blog/.expo/*
 blog/npm-debug.*
 
+jsonserver/node_modules/**/*
+
 *.jks
 *.p8
 *.p12
