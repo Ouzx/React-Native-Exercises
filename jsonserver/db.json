@@ -1,3 +1,24 @@
 {
-    "blogposts": []
+  "blogposts": [
+    {
+      "id": 1,
+      "title": "TEST POST",
+      "content": "TEST CONTENT"
+    },
+    {
+      "title": "Jsjdk",
+      "content": "Dkdldldl",
+      "id": 3
+    },
+    {
+      "title": "Skskm",
+      "content": "Zkdldldl",
+      "id": 4
+    },
+    {
+      "title": "Merhaba",
+      "content": "Zkdldldl",
+      "id": 5
+    }
+  ]
 }
