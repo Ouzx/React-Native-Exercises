@@ -11,6 +11,7 @@ blog/.expo/*
 blog/npm-debug.*
 
 jsonserver/node_modules/**/*
+track-server/node_modules/**/*
 
 *.jks
 *.p8
