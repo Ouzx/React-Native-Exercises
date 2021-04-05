@@ -6,6 +6,10 @@ food/node_modules/**/*
 food/.expo/*
 food/npm-debug.*
 
+tracks/node_modules/**/*
+tracks/.expo/*
+tracks/npm-debug.*
+
 blog/node_modules/**/*
 blog/.expo/*
 blog/npm-debug.*
