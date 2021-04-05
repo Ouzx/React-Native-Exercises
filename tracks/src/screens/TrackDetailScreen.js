@@ -1,5 +1,5 @@
 import React from "react";
-import { Viev as View, StyleSheet, Text } from "react-native";
+import { View as View, StyleSheet, Text } from "react-native";
 
 const TrackDetailScreen = () => {
   return (
