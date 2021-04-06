@@ -1,6 +1,4 @@
 import * as Location from "expo-location";
-import AccountScreen from "./screens/AccountScreen";
-
 const tenMetersWithDegrees = 0.0001;
 
 const getLocation = (increment) => {
